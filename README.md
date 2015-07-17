@@ -5,7 +5,7 @@
 
 ##Data Visualization by Shiny in R:
 The Most Dangerous Intersections in NYC - NYPD Vehicle Collisions Data Visualization
-[https://funjo.shinyapps.io/NYPD](https://funjo.shinyapps.io/NYPD)
+[https://funjo.shinyapps.io/NYPD_accidents_shiny](https://funjo.shinyapps.io/NYPD_accidents_shiny)
 
 ##Data Source
 * Source: NYPD Motor Vehicle Collisions | NYC Open Data.
