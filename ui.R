@@ -100,11 +100,12 @@ shinyUI(navbarPage("NYPD Vehicle Accidents Map", id="nav",
                    ),
                    
                    tabPanel("About",
-                            h4("User Manual: "),
+                            h4("User Manual: ", a("Click Here", href=
+                                    "http://nbviewer.ipython.org/github/funjo/NYPD_accidents_shiny/blob/master/User%20Manual.pdf")),
                             br(),
                             h4("Data Source"),
                             p("Source: ",a("NYPD Motor Vehicle Collisions | NYC Open Data.",href=
-                                                          "https://data.cityofnewyork.us/Public-Safety/NYPD-Motor-Vehicle-Collisions/h9gi-nx95")),
+                                    "https://data.cityofnewyork.us/Public-Safety/NYPD-Motor-Vehicle-Collisions/h9gi-nx95")),
                             p("Description: ","Data Details of Motor Vehicle Collisions in 
                               New York City provided by the Police Department (NYPD)."),
                             p("Usage: ","Original dataset was downloaded on 07/07/2015, 
