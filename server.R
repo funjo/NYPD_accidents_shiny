@@ -67,12 +67,7 @@ shinyServer(function(input, output, session) {
   # Show a popup at the given location
   showvcPopup <- function(eventid, lat, lng) {
     draw <- drawvalue()
-    print(dim(draw))
-    print(class(draw))
-    print(lat)
-    print(lng)
     selectedvc <- filter(draw, LATITUDE == lat, LONGITUDE == lng)
-    print(selectedvc)
     entry <- function(row){
       result <- as.character(tagList(
       tags$h6(row[2], row[3]), 
